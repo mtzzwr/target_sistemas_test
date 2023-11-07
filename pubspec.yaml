@@ -1,0 +1,26 @@
+name: target_sistemas_test
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: 
+  mobx: 
+  flutter_mobx: 
+  shared_preferences: 
+  uuid: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mobx_codegen: 
+  build_runner: 
+
+flutter:
+  uses-material-design: true
